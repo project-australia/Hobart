@@ -1,5 +1,5 @@
 {
-  "name": "firebase-functions",
+  "name": "hobart",
   "version": "1.0.0",
   "description": "Firebase functions for project-australia",
   "main": "index.js",
@@ -12,12 +12,16 @@
     "url": "git+https://github.com/project-australia/Hobart.git"
   },
   "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/project-australia/Hobart/issues"
   },
   "homepage": "https://github.com/project-australia/Hobart#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "firebase-admin": "^5.6.0",
+    "firebase-functions": "^0.8.0",
     "firebase-tools": "^3.16.0"
   }
 }
